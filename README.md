@@ -1,6 +1,13 @@
 # a PyTorch implementation of [MoCo-v1](https://arxiv.org/abs/1911.05722) with [MoCo-v2](https://arxiv.org/abs/2003.04297) improvements
 
 
+## Enviorment
+to install requirements run:
+```
+conda env create -f environment.yml
+```
+
+
 ## Unsupervised Pre-Training
 Hyperparameters for recreating our results:
 <table><tbody>
