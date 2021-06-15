@@ -9,7 +9,7 @@ from torchvision.datasets.utils import download_url
 dataset_url = 'https://s3.amazonaws.com/fast-ai-imageclas/imagenette2.tgz'
 dataset_filename = dataset_url.split('/')[-1]
 dataset_foldername = dataset_filename.split('.')[0]
-data_path = '../data'
+data_path = 'data'
 dataset_filepath = os.path.join(data_path, dataset_filename)
 dataset_folderpath = os.path.join(data_path, dataset_foldername)
 
