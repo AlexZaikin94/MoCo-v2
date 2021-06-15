@@ -8,6 +8,13 @@ conda env create -f environment.yml
 ```
 
 
+## Downloading Data
+simply run:
+```
+python download_data.py
+```
+
+
 ## Unsupervised Pre-Training
 Hyperparameters for recreating our results:
 <table><tbody>
@@ -115,11 +122,5 @@ training logs can be found in [`logs`](https://github.com/AlexZaikin94/MoCo-v2/t
 * top-1 accuracy reported for training is an approximation, using the encodings (train and val, with no_gran and evaluation mode).
 * we run training in a few consecutive sessions on Nvidia GeForce GTX 1080 Ti/GeForce GTX 2080 Ti/Titan Xp.
 
-
-## Downloading Data
-simply run:
-```
-python download_data.py
-```
 
 
